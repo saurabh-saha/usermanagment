@@ -1,0 +1,150 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "contact crud",
+    "dateExported": "2024-03-24T02:41:44.098Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "64a139b7-f4a5-488c-b20e-6ed4cdcc9264",
+            "colId": "06738804-dbb0-4c1a-9e3f-63cee37da437",
+            "containerId": "",
+            "name": "create contact",
+            "url": "http://localhost:5001/api/contact/",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-24T02:38:27.523Z",
+            "modified": "2024-03-24T02:38:27.523Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"john\",\n  \"email\":\"dad\",\n  \"phone\":\"dad\"\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7InVzZXJuYW1lIjoiU2F1cmFiaCIsImVtYWlsIjoiMSIsImlkIjoiNjVmZjJkZmRjZDJlODYyODA4MmIzMDA2In0sImlhdCI6MTcxMTI0NzMyNCwiZXhwIjoxNzExMjQ4MjI0fQ.pDXhtK661zd6mPv5cFDRgkRgCaI8WoWOPQG-PFwllp4"
+            },
+            "tests": []
+        },
+        {
+            "_id": "8c958bf3-cc51-4919-9fe6-290844eb4067",
+            "colId": "06738804-dbb0-4c1a-9e3f-63cee37da437",
+            "containerId": "",
+            "name": "update contact",
+            "url": "http://localhost:5001/api/contact/65ff909e870e23eb1c72270a",
+            "method": "PUT",
+            "sortNum": 20000,
+            "created": "2024-03-24T02:39:00.952Z",
+            "modified": "2024-03-24T02:39:00.952Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"dad becomes mom\",\n  \"email\":\"dad\",\n  \"phone\":\"dad\"\n}",
+                "form": []
+            },
+            "reqType": "post",
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7InVzZXJuYW1lIjoiU2F1cmFiaCIsImVtYWlsIjoiMSIsImlkIjoiNjVmZjJkZmRjZDJlODYyODA4MmIzMDA2In0sImlhdCI6MTcxMTI0NzMyNCwiZXhwIjoxNzExMjQ4MjI0fQ.pDXhtK661zd6mPv5cFDRgkRgCaI8WoWOPQG-PFwllp4"
+            },
+            "tests": []
+        },
+        {
+            "_id": "12c859b5-d8f6-4c20-a808-cbcf3875b735",
+            "colId": "06738804-dbb0-4c1a-9e3f-63cee37da437",
+            "containerId": "",
+            "name": "fetch all contacts",
+            "url": "http://localhost:5001/api/contact",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-03-24T02:39:32.937Z",
+            "modified": "2024-03-24T02:39:32.937Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7InVzZXJuYW1lIjoiU2F1cmFiaCIsImVtYWlsIjoiMSIsImlkIjoiNjVmZjJkZmRjZDJlODYyODA4MmIzMDA2In0sImlhdCI6MTcxMTI0NzMyNCwiZXhwIjoxNzExMjQ4MjI0fQ.pDXhtK661zd6mPv5cFDRgkRgCaI8WoWOPQG-PFwllp4"
+            },
+            "tests": []
+        },
+        {
+            "_id": "ced4dd7e-98eb-4865-bffa-062b2afbd34d",
+            "colId": "06738804-dbb0-4c1a-9e3f-63cee37da437",
+            "containerId": "",
+            "name": "delete contact",
+            "url": "http://localhost:5001/api/contact/65ff91c6203f806c0b41ee32",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2024-03-24T02:39:50.416Z",
+            "modified": "2024-03-24T02:39:50.416Z",
+            "headers": [],
+            "params": [],
+            "reqType": "get",
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7InVzZXJuYW1lIjoiU2F1cmFiaCIsImVtYWlsIjoiMSIsImlkIjoiNjVmZjJkZmRjZDJlODYyODA4MmIzMDA2In0sImlhdCI6MTcxMTI0NzMyNCwiZXhwIjoxNzExMjQ4MjI0fQ.pDXhtK661zd6mPv5cFDRgkRgCaI8WoWOPQG-PFwllp4"
+            },
+            "tests": []
+        },
+        {
+            "_id": "4cd10624-720f-4a99-956b-71c188d692d2",
+            "colId": "06738804-dbb0-4c1a-9e3f-63cee37da437",
+            "containerId": "",
+            "name": "login user",
+            "url": "http://localhost:5001/api/user/login",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2024-03-24T02:40:23.527Z",
+            "modified": "2024-03-24T02:40:23.527Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\" : \"1\",\n  \"password\" : \"1\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "f0e76432-9db3-4342-b0e8-245ae334b5f4",
+            "colId": "06738804-dbb0-4c1a-9e3f-63cee37da437",
+            "containerId": "",
+            "name": "current user test",
+            "url": "http://localhost:5001/api/user/current",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2024-03-24T02:40:41.468Z",
+            "modified": "2024-03-24T02:40:41.468Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7InVzZXJuYW1lIjoiU2F1cmFiaCIsImVtYWlsIjoiMSIsImlkIjoiNjVmZjJkZmRjZDJlODYyODA4MmIzMDA2In0sImlhdCI6MTcxMTI0NzExNiwiZXhwIjoxNzExMjQ3MTc2fQ.2nY1WL2cXRtdWMJcsj0tSlpu5hYY9t6qc_ISkXsrUaE"
+            },
+            "tests": []
+        },
+        {
+            "_id": "c3beaaa3-5238-49b1-82d7-0e06729661e2",
+            "colId": "06738804-dbb0-4c1a-9e3f-63cee37da437",
+            "containerId": "",
+            "name": "register user",
+            "url": "http://localhost:5001/api/user/register",
+            "method": "POST",
+            "sortNum": 70000,
+            "created": "2024-03-24T02:41:26.576Z",
+            "modified": "2024-03-24T02:41:26.576Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"username\": \"1\",\n  \"email\" : \"1\",\n  \"password\" : \"1\"\n}",
+                "form": []
+            },
+            "reqType": "post",
+            "tests": []
+        }
+    ]
+}
