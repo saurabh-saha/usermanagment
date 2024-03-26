@@ -38,8 +38,8 @@ Authenticates a user with a username and password.
 
 4. **Endpoints:**
    - **Register User:** `POST /api/user/register`
-   - **Update User:** `PUT /api/contact/:username`
-   - **Delete User:** `DELETE /api/contact/:username`
+   - **Update User:** `PUT /api/contact/:id`
+   - **Delete User:** `DELETE /api/contact/:id`
    - **Get Users:** `GET /contact`
    - **Authenticate:** `POST /api/user/login`
 
